@@ -1,0 +1,92 @@
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    max-width: 1170px;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    overflow: auto;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+
+
+    .modalContent {
+            display: flex;
+            flex-direction: column;
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 40%;
+    
+            @media (min-width: 768px) and (max-width: 1024px) {
+                & {
+                    width: 60%;
+                    ;
+                }
+            }
+    
+            @media (max-width: 767px) {
+                & {
+                    width: 80%;
+                }
+            }
+        }
+
+    .modalFooter {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .selectUser,
+    .cancelTodo,
+    .confirmTodo{
+        width: 100%;
+        max-width: 32%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 600;
+        text-decoration: none;
+        border: none;
+        padding: 5px 0;
+        box-shadow: 0 6px 4px -4px #6C7279;
+    }
+
+        .cancelTodo,
+        .confirmTodo {
+            background-color: rgb(255, 0, 0);
+            color: #ffffff;
+        }
+
+                .selectUser {
+                    border: 1px solid #888;
+            color: #888;
+        }
+
+    .titleTodo,
+    .textTodo{
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        width: 100%;
+        max-width: 100%;
+        display: block;
+        margin: 10px auto;
+        border: 1px dashed gray;
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+}

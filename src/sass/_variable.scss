@@ -1,0 +1,46 @@
+//--------------------------.container--------------------
+
+
+.container {
+
+    padding: 0 15px 0 15px;
+
+    //border: 1px solid red;
+
+    // @media (max-width: 767px) {
+    //     & {
+    //         padding: 0 20px 0 20px;
+    //     }
+    // }
+
+    // @media (min-width: 768px) and (max-width: 1024px) {
+    //     & {
+    //         padding: 0 20px 0 20px;
+    //     }
+    // }
+}
+
+//--------------------------.wrapper-------------------
+.wrapper {
+    
+    // max-width: 1170px;
+    // width: 100%;
+    margin: 0 auto;
+    //border: 1px dashed red;
+
+    // @media (max-width: 767px) {
+    //     & {
+    //         max-width: 288px;
+    //         width: 100%;
+    //     }
+    // }
+
+    // @media (min-width: 768px) and (max-width: 1024px) {
+    //     & {
+    //         max-width: 992px;
+    //         width: 100%;
+    //     }
+    // }
+}
+
+//----------------------------------------
